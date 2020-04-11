@@ -1,3 +1,7 @@
+//Wow.js
+new WOW().init();
+
+//Navbar Toggler
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link')
 
