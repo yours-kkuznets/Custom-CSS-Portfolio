@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirill Kuznetsov Portfolio</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/kkuznets-logo.png" alt="Logo of the website" class="logo-img"></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro animated fadeIn">
+            Hi, I am <strong>Kirill Kuznetsov<span class="typewriter">&nbsp;</span></strong>
+        </h1>
+        <p class="animated fadeIn section__subtitle section__subtitle--intro">full-stack developer</p>
+        <img src="img/kkuznets-profile.jpg" alt="A picture of Kirill Kuznetsov" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="parallax-services animated wow fadeInLeftBig faster" id="services">
+        <h2 class="section__title section__title--services">What I offer</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Development</h3>
+                <p>I provide my clients with responsive, agile mobile-first web applications. All my solutions are
+                    search engine optimized and will be specifically tailored to your needs, including website content.
+                </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Web Design</h3>
+                <p>Design is my old passion, and my works reflect it fully. I pay meticulous attention to the smallest
+                    design elements to create immersive user experience and unique style for your web pages. </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Modern Technologies</h3>
+                <p>I implement a wide variety of contemporary technologies I have experience working with, including but
+                    not limited to HTML5, CSS3, Bootstrap 4, Javascript, jQuery and Node.js.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn btn-primary">My Work</a>
+        <a class="btn btn-secondary" onclick="window.location.href='img/Grab & Go Food and Drinks - KK.xlsx'">My CV</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="animated fadeInLeft wow section__subtitle section__subtitle--about">Developer & designer based in
+            Sydney</p>
+
+        <div class="about-me__body">
+            <p>Born in Moscow, I moved to Australia at the of 17. I've graduated from the Mercedes College in Adelaide
+                and am currently studying Computer Science at the University of Sydney. I always try to further hone my
+                skills at full stack development and am passionate about web design.</p>
+        </div>
+
+        <img src="img/kkuznets-profile-2.jpg" alt="Jane leaning against a bus"
+            class="about-me__img animated fadeIn wow delay-1s">
+    </section>
+
+    <!-- My Work -->
+    <main class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
+                <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
+                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
+                <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
+                <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
+                <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 07 -->
+            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
+                <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 08 -->
+            <a href="#" class="portfolio__item animated wow zoomIn">
+                <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 09 -->
+            <a href="#" class="portfolio__item animated wow zoomIn">
+                <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 0 0-->
+            <a href="#" class="portfolio__item animated wow zoomIn">
+                <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:yours.kkuznets@gmail.com" class="footer__link">yours.kkuznets@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://dribbble.com">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+<script src="js/index.js"></script>
+<!-- WOW JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</html>
