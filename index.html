@@ -5,26 +5,28 @@
     <link rel="stylesheet" href="normalize.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portflio custom website">
+    <meta name="keywords" content="Portoflio, Custom CSS, Portoflio Website, Custom Portoflio">
+    <meta name="author" content="Kirill Kuznetsov">
     <title>Kirill Kuznetsov Portfolio</title>
     <!-- Reset CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-
-    <!-- Custom Fonts -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
         rel="stylesheet">
-
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
     <!-- Favicon -->
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-
 </head>
 
 <body>
+
+    <!-- Navbar -->
     <header>
         <div class="logo">
             <a href="index.html"><img src="img/kkuznets-logo.png" alt="Logo of the website" class="logo-img"></a>
@@ -41,6 +43,7 @@
             </ul>
         </nav>
     </header>
+    <!-- /Navbar -->
 
     <!-- Introduction -->
     <section class="intro">
@@ -50,7 +53,7 @@
         <p class="animated fadeIn section__subtitle section__subtitle--intro">full-stack developer</p>
         <img src="img/kkuznets-profile.jpg" alt="A picture of Kirill Kuznetsov" class="intro__img">
     </section>
-
+    <!-- /Introduction -->
 
     <!-- My services -->
     <section class="parallax-services animated wow fadeInLeftBig faster" id="services">
@@ -61,25 +64,25 @@
                 <p>I provide my clients with responsive, agile mobile-first web applications. All my solutions are
                     search engine optimized and will be specifically tailored to your needs, including website content.
                 </p>
-            </div> <!-- / service -->
+            </div>
 
             <div class="service">
                 <h3>Web Design</h3>
                 <p>Design is my old passion, and my works reflect it fully. I pay meticulous attention to the smallest
                     design elements to create immersive user experience and unique style for your web pages. </p>
-            </div> <!-- / service -->
+            </div>
 
             <div class="service">
                 <h3>Modern Technologies</h3>
                 <p>I implement a wide variety of contemporary technologies I have experience working with, including but
                     not limited to HTML5, CSS3, Bootstrap 4, Javascript, jQuery and Node.js.</p>
-            </div> <!-- / service -->
-        </div> <!-- / services -->
+            </div>
+        </div>
 
         <a href="#work" class="btn btn-primary">My Work</a>
         <a class="btn btn-secondary" onclick="window.location.href='img/Grab & Go Food and Drinks - KK.xlsx'">My CV</a>
     </section>
-
+    <!-- /My Services -->
 
     <!-- About me -->
     <section class="about-me" id="about">
@@ -96,8 +99,9 @@
         <img src="img/kkuznets-profile-2.jpg" alt="Jane leaning against a bus"
             class="about-me__img animated fadeIn wow delay-1s">
     </section>
+    <!-- /About Me -->
 
-    <!-- My Work -->
+    <!-- Portoflio -->
     <main class="my-work" id="work">
         <h2 class="section__title section__title--work">My work</h2>
         <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
@@ -154,7 +158,7 @@
             </a>
         </div>
     </main>
-
+    <!-- /Portoflio -->
 
     <!-- Footer -->
     <footer class="footer">
@@ -183,13 +187,12 @@
             </li>
         </ul>
     </footer>
+    <!-- /Footer -->
 
 </body>
+<!-- Custom Javascript -->
 <script src="js/index.js"></script>
-<!-- WOW JavaScript -->
+<!-- WOW.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script>
-    new WOW().init();
-</script>
 
 </html>
