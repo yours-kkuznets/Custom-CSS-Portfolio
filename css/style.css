@@ -594,13 +594,17 @@ header {
   }
 
   .contactSocialList {
-    justify-content: left;
+    justify-content: space-evenly;
     padding-left: 0;
     margin-left: 0;
   }
 
   .contactSocialListLink {
     padding-left: 0;
+  }
+
+  .contactSocialListItem {
+    margin: 0 0.2em;
   }
 }
 
