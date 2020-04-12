@@ -2,8 +2,8 @@
 new WOW().init();
 
 //Navbar Toggler
-const navToggle = document.querySelector('.nav-toggle');
-const navLinks = document.querySelectorAll('.nav__link')
+const navToggle = document.querySelector('.navToggle');
+const navLinks = document.querySelectorAll('.navLink')
 
 navToggle.addEventListener('click', () => {
     document.body.classList.toggle('nav-open');
