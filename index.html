@@ -28,17 +28,18 @@
     <!-- Navbar -->
     <header>
         <div class="logo">
-            <a href="index.html"><img src="img/kkuznets-logo.png" alt="Logo of the website" class="logo-img"></a>
+            <a href="index.html"><img src="img/kkuznets-logo.png" alt="Logo of the website" class="logoImg"></a>
         </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
+        <button class="navToggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            <ul class="navList">
+                <li><a href="index.html" class="navLink">Home</a></li>
+                <li><a href="#services" class="navLink">My Services</a></li>
+                <li><a href="#about" class="navLink">About me</a></li>
+                <li><a href="#work" class="navLink">Portfolio</a></li>
+                <li><a href="#contact" class="navLink">Contact Me</a></li>
             </ul>
         </nav>
     </header>
@@ -46,17 +47,17 @@
 
     <!-- Introduction -->
     <section class="intro">
-        <h1 class="section__title section__title--intro animated fadeIn">
+        <h1 class="title introTitle animated fadeIn">
             Hi, I am <strong>Kirill Kuznetsov<span class="typewriter">&nbsp;</span></strong>
         </h1>
-        <p class="animated fadeIn section__subtitle section__subtitle--intro">full-stack developer</p>
-        <img src="img/kkuznets-profile.jpg" alt="A picture of Kirill Kuznetsov" class="intro__img">
+        <p class="animated fadeIn heading introHeading">full-stack developer</p>
+        <img src="img/kkuznets-profile.jpg" alt="A picture of Kirill Kuznetsov" class="introImg introShadow">
     </section>
     <!-- /Introduction -->
 
     <!-- My services -->
-    <section class="parallax-services animated wow fadeInLeftBig faster" id="services">
-        <h2 class="section__title section__title--services">What I offer</h2>
+    <section class="servicesParallax animated wow fadeInLeftBig faster" id="services">
+        <h2 class="title servicesTitle">What I offer</h2>
         <div class="services">
             <div class="service">
                 <h3>Development</h3>
@@ -78,110 +79,134 @@
             </div>
         </div>
 
-        <a href="#work" class="btn btn-primary">My Work</a>
-        <a class="btn btn-secondary" onclick="window.location.href='img/Grab & Go Food and Drinks - KK.xlsx'">My CV</a>
+        <a href="#work" class="btn btnPrimary">My Work</a>
+        <a class="btn btnSecondary" onclick="window.location.href='img/Grab & Go Food and Drinks - KK.xlsx'">My CV</a>
     </section>
     <!-- /My Services -->
 
     <!-- About me -->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="animated fadeInLeft wow section__subtitle section__subtitle--about">Developer & designer based in
+    <section class="about" id="about">
+        <h2 class="title aboutTitle">Who I am</h2>
+        <p class="animated fadeInLeft wow heading aboutHeading">Developer & designer based in
             Sydney</p>
-
-        <div class="about-me__body">
-            <p>Born in Moscow, I moved to Australia at the of 17. I've graduated from the Mercedes College in Adelaide
-                and am currently studying Computer Science at the University of Sydney. I always try to further hone my
-                skills at full stack development and am passionate about web design.</p>
-        </div>
+        <p>Born in Moscow, I moved to Australia at the of 17. I've graduated from the Mercedes College in Adelaide
+            and am currently studying Computer Science at the University of Sydney. I always try to further hone my
+            skills at full stack development and am passionate about web design.</p>
 
         <img src="img/kkuznets-profile-2.jpg" alt="Jane leaning against a bus"
-            class="about-me__img animated fadeIn wow delay-1s">
+            class="aboutImg animated fadeIn wow delay-1s">
     </section>
     <!-- /About Me -->
 
     <!-- Portoflio -->
-    <main class="my-work" id="work">
-        <h2 class="section__title section__title--work">My work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+    <main class="work" id="work">
+        <h2 class="title">My work</h2>
+        <p class="heading workHeading">A selection of my range of work</p>
 
         <div class="portfolio">
             <!-- Portfolio item 01 -->
-            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
-                <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
+                <img src="img/portfolio-01.jpg" alt="" class="portfolioImg">
             </a>
 
             <!-- Portfolio item 02 -->
-            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
-                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolioImg">
             </a>
 
             <!-- Portfolio item 03 -->
-            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
-                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
+                <img src="img/portfolio-03.jpg" alt="" class="portfolioImg">
             </a>
 
             <!-- Portfolio item 04 -->
-            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
-                <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
+                <img src="img/portfolio-04.jpg" alt="" class="portfolioImg">
             </a>
 
             <!-- Portfolio item 05 -->
-            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
-                <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
+                <img src="img/portfolio-05.jpg" alt="" class="portfolioImg">
             </a>
 
             <!-- Portfolio item 06 -->
-            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
-                <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
+                <img src="img/portfolio-06.jpg" alt="" class="portfolioImg">
             </a>
 
             <!-- Portfolio item 07 -->
-            <a href="portfolio-item.html" class="portfolio__item animated wow zoomIn">
-                <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
+                <img src="img/portfolio-07.jpg" alt="" class="portfolioImg">
             </a>
 
             <!-- Portfolio item 08 -->
-            <a href="#" class="portfolio__item animated wow zoomIn">
-                <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+            <a href="#" class="portfolioItem animated wow zoomIn">
+                <img src="img/portfolio-08.jpg" alt="" class="portfolioImg">
             </a>
 
             <!-- Portfolio item 09 -->
-            <a href="#" class="portfolio__item animated wow zoomIn">
-                <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+            <a href="#" class="portfolioItem animated wow zoomIn">
+                <img src="img/portfolio-09.jpg" alt="" class="portfolioImg">
             </a>
 
             <!-- Portfolio item 0 0-->
-            <a href="#" class="portfolio__item animated wow zoomIn">
-                <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+            <a href="#" class="portfolioItem animated wow zoomIn">
+                <img src="img/portfolio-10.jpg" alt="" class="portfolioImg">
             </a>
         </div>
     </main>
     <!-- /Portoflio -->
 
+    <!-- Contact Me -->
+    <section class="contact" id="contact">
+        <h2 class="title contactTitle wow animated fadeInDown">
+            <strong>Contact me</strong>
+        </h2>
+        <div class="contactText wow animated fadeInDown">
+            <p><strong>Email:</strong> <a href="mailto:yours.kkuznets@gmail.com" class="">yours.kkuznets@gmail.com</a>
+            </p>
+            <p><strong>Phone:</strong> +61 412 872 579</p>
+        </div>
+        <div class="animated fadeIn heading contactHeading">
+            <ul class="contactSocialList">
+                <li class="contactSocialListItem"> Follow me at:
+                    <a class="contactSocialListLink" href="https://github.com/yours-kkuznets">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="contactSocialListItem">
+                    <a class="contactSocialListLink" href="https://www.linkedin.com/in/yourskkuznets/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="contactSocialListItem">
+                    <a class="contactSocialListLink" href="https://www.facebook.com/yours.kkuznets/">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <img src="img/contactMe.png" alt="Contact Kirill Kuznetsov" class="contactImg wow animated slideInLeft">
+    </section>
+    <!-- /Contact Me -->
+
     <!-- Footer -->
     <footer class="footer">
-        <!-- replace with your own email address -->
-        <a href="mailto:yours.kkuznets@gmail.com" class="footer__link">yours.kkuznets@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://codepen.io">
-                    <i class="fab fa-codepen"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="http://dribbble.com">
-                    <i class="fab fa-dribbble"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://twitter.com">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com">
+        <a href="mailto:yours.kkuznets@gmail.com" class="footerLink">yours.kkuznets@gmail.com</a>
+        <ul class="socialList">
+            <li class="socialListItem">
+                <a class="socialListLink" href="https://github.com/yours-kkuznets">
                     <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="socialListItem">
+                <a class="socialListLink" href="https://www.linkedin.com/in/yourskkuznets/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="socialListItem">
+                <a class="socialListLink" href="https://www.facebook.com/yours.kkuznets/">
+                    <i class="fab fa-facebook-f"></i>
                 </a>
             </li>
         </ul>
