@@ -485,19 +485,6 @@ header {
   opacity: 0.5;
 }
 
-/* Individual portfolio item styles */
-.portfolio-item-individual {
-  padding: 0 2em 2em;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.portfolio-item-individual p {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Contact Me */
 .contact {
   position: relative;
