@@ -28,14 +28,14 @@
     <!-- Navbar -->
     <header>
         <div class="logo">
-            <a href="index.html"><img src="assets/img/kkuznets-logo.png" alt="Logo of the website" class="logoImg"></a>
+            <a href="index.html"><img src="assets/img/logo.png" alt="Logo of the website" class="logoImg"></a>
         </div>
         <button class="navToggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
         <nav class="nav">
             <ul class="navList">
-                <li><a href="index.html" class="navLink">Home</a></li>
+                <li><a href="#intro" class="navLink">Home</a></li>
                 <li><a href="#services" class="navLink">My Services</a></li>
                 <li><a href="#about" class="navLink">About me</a></li>
                 <li><a href="#work" class="navLink">Portfolio</a></li>
@@ -46,12 +46,12 @@
     <!-- /Navbar -->
 
     <!-- Introduction -->
-    <section class="intro">
+    <section class="intro" id="intro">
         <h1 class="title introTitle animated fadeIn">
             Hi, I am <strong>Kirill Kuznetsov<span class="typewriter">&nbsp;</span></strong>
         </h1>
         <p class="animated fadeIn heading introHeading">full-stack developer</p>
-        <img src="assets/img/kkuznets-profile.jpg" alt="A picture of Kirill Kuznetsov" class="introImg introShadow">
+        <img src="assets/img/profile-00.jpg" alt="A picture of Kirill Kuznetsov" class="introImg introShadow">
     </section>
     <!-- /Introduction -->
 
@@ -80,7 +80,7 @@
         </div>
 
         <a href="#work" class="btn btnPrimary">My Work</a>
-        <a class="btn btnSecondary" onclick="window.location.href='assets/img/Grab & Go Food and Drinks - KK.xlsx'">My
+        <a class="btn btnSecondary" download href="assets/doc/CV Kirill Kuznetsov.pdf" target="_blank">My
             CV</a>
     </section>
     <!-- /My Services -->
@@ -94,7 +94,7 @@
             and am currently studying Computer Science at the University of Sydney. I always try to further hone my
             skills at full stack development and am passionate about web design.</p>
 
-        <img src="assets/img/kkuznets-profile-2.jpg" alt="Kirill Kuznetsov on a beach"
+        <img src="assets/img/profile-01.jpg" alt="Kirill Kuznetsov on a beach"
             class="aboutImg animated fadeIn wow delay-1s">
     </section>
     <!-- /About Me -->
@@ -105,30 +105,94 @@
         <p class="heading workHeading">A selection of my range of work</p>
 
         <div class="portfolio">
+
             <!-- Portfolio item 01 -->
-            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
-                <img src="assets/img/portfolio-01.png" alt="Portfolio Item 1" class="portfolioImg">
-            </a>
+            <div class="box wow animated zoomIn">
+                <img src="assets/img/portfolio/portfolio-03.png">
+                <div class="box-content">
+                    <div class="inner-content">
+                        <h3 class="title">Portfolio</h3>
+                        <span class="post">With custom CSS</span>
+                        <ul class="icon">
+                            <li><a href="https://github.com/yours-kkuznets/Custom-CSS-Portfolio" target="_blank"><i
+                                        class="fab fa-github"></i></a>
+                            </li>
+                            <li><a href="https://yours-kkuznets.github.io/Custom-CSS-Portfolio/" target="_blank"><i
+                                        class="fa fa-link"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
             <!-- Portfolio item 02 -->
-            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
-                <img src="assets/img/portfolio-02.png" alt="Portfolio Item 2" class="portfolioImg">
-            </a>
+            <div class="box wow animated zoomIn">
+                <img src="assets/img/portfolio/portfolio-02.png">
+                <div class="box-content">
+                    <div class="inner-content">
+                        <h3 class="title">Portfolio</h3>
+                        <span class="post">Bootstrap Theme</span>
+                        <ul class="icon">
+                            <li><a href="https://github.com/yours-kkuznets/Bootstrap-Portfolio" target="_blank"><i
+                                        class="fab fa-github"></i></a></li>
+                            <li><a href="https://yours-kkuznets.github.io/Bootstrap-Portfolio/" target="_blank"><i
+                                        class="fa fa-link"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
             <!-- Portfolio item 03 -->
-            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
-                <img src="assets/img/portfolio-03.png" alt="Portfolio Item 3" class="portfolioImg">
-            </a>
+            <div class="box wow animated zoomIn">
+                <img src="assets/img/portfolio/portfolio-01.png">
+                <div class="box-content">
+                    <div class="inner-content">
+                        <h3 class="title">COINCHANGE</h3>
+                        <span class="post">Crypto market tracker</span>
+                        <ul class="icon">
+                            <li><a href="https://github.com/yours-kkuznets/Currency-Exchange" target="_blank"><i
+                                        class="fab fa-github"></i></a></li>
+                            <li><a href="https://yours-kkuznets.github.io/Currency-Exchange/#" target="_blank"><i
+                                        class="fa fa-link"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
             <!-- Portfolio item 04 -->
-            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
-                <img src="assets/img/portfolio-04.png" alt="Portfolio Item 4" class="portfolioImg">
-            </a>
+            <div class="box wow animated zoomIn">
+                <img src="assets/img/portfolio/portfolio-04.png">
+                <div class="box-content">
+                    <div class="inner-content">
+                        <h3 class="title">Javasript Quiz</h3>
+                        <span class="post">With timer and leaderboard</span>
+                        <ul class="icon">
+                            <li><a href="https://github.com/yours-kkuznets/Multiple-Choice-Quiz-with-Timer"
+                                    target="_blank"><i class="fab fa-github"></i></a>
+                            </li>
+                            <li><a href="https://yours-kkuznets.github.io/Multiple-Choice-Quiz-with-Timer/"
+                                    target="_blank"><i class="fa fa-link"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
             <!-- Portfolio item 05 -->
-            <a href="portfolio-item.html" class="portfolioItem animated wow zoomIn">
-                <img src="assets/img/portfolio-05.png" alt="Portfolio Item 5" class="portfolioImg">
-            </a>
+            <div class="box wow animated zoomIn">
+                <img src="assets/img/portfolio/portfolio-05.png">
+                <div class="box-content">
+                    <div class="inner-content">
+                        <h3 class="title">Password Generator</h3>
+                        <span class="post">With copy functionality</span>
+                        <ul class="icon">
+                            <li><a href="https://github.com/yours-kkuznets/Random-Password-Generator" target="_blank"><i
+                                        class="fab fa-github"></i></a>
+                            </li>
+                            <li><a href="https://yours-kkuznets.github.io/Random-Password-Generator/" target="_blank"><i
+                                        class="fa fa-link"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <!-- /Portoflio -->
