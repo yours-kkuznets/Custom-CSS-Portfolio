@@ -356,12 +356,11 @@ header {
 }
 
 /* My Services */
-
 .servicesParallax {
   background-color: var(--clr-dark);
   color: var(--clr-light);
   text-align: center;
-  background-image: url(../img/services-bg.jpg);
+  background-image: url(../img/parallaxBg.jpg);
 
   height: auto;
 
@@ -472,24 +471,118 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.portfolioItem {
+.box {
   background: var(--clr-accent);
+  font-family: "Nanum Gothic", sans-serif;
+  position: relative;
   overflow: hidden;
 }
-
-.portfolioImg {
-  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+.box:before,
+.box:after,
+.box .box-content:before,
+.box .box-content:after {
+  content: "";
+  background: var(--clr-dark);
+  width: 50%;
+  height: 4px;
+  transform: scaleX(0);
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1;
+  transition: all 600ms ease;
 }
-
-.portfolioItem:focus {
-  position: relative;
-  z-index: 2;
+.box:after {
+  top: auto;
+  bottom: 15px;
+  left: auto;
+  right: 15px;
 }
-
-.portfolioImg:hover,
-.portfolioItem:focus .portfolioImg {
+.box .box-content:before,
+.box .box-content:after {
+  width: 4px;
+  height: 50%;
+  transform: scaleY(0);
+}
+.box .box-content:after {
+  left: auto;
+  right: 15px;
+  top: auto;
+  bottom: 15px;
+}
+.box:hover:before,
+.box:hover:after,
+.box:hover .box-content:before,
+.box:hover .box-content:after {
+  transform: scale(1);
+}
+.box img {
+  width: 100%;
+  height: auto;
+  transition: all 0.25s linear;
+}
+.box:hover img {
+  opacity: 0.25;
   transform: scale(1.2);
-  opacity: 0.5;
+}
+.box .inner-content {
+  color: var(--clr-dark);
+  text-align: center;
+  width: 70%;
+  opacity: 0;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transition: all 600ms ease;
+}
+.box:hover .inner-content {
+  opacity: 1;
+  top: 50%;
+}
+.box .title {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 3px;
+}
+.box .post {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0 0 12px;
+  display: block;
+}
+.box .icon {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.box .icon li {
+  display: inline-block;
+  margin: 0 4px;
+}
+.box .icon li a {
+  color: var(--clr-black);
+  font-size: 18px;
+  line-height: 32px;
+  height: 35px;
+  width: 35px;
+  border: 2px solid var(--clr-black);
+  border-radius: 10px;
+  display: block;
+  transition: all 0.3s;
+}
+.box .icon li a:hover {
+  color: var(--clr-light);
+  background-color: var(--clr-black);
+  border-radius: 0;
+}
+@media only screen and (max-width: 990px) {
+  .box {
+    margin: 0 0 30px;
+  }
 }
 
 /* Contact Me */
