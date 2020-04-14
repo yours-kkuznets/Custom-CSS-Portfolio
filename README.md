@@ -31,21 +31,13 @@ A mobile-first agile portfolio website made with custom CSS, featuring animation
 
 Clone the repository or download and unpack the source code of the project. From the project folder, open the `index.html` file with your preferred browser.
 
-## Running the Application
-
-- To generate a password, click on the `Generate Password` button.
-- You will receive a number of prompts that will allows you to choose which characters to include in your password.
-- To copy your password, click on the `Copy Password` button.
-
 ## Additional Information
 
-Users may choose to include or exclude digits, uppercase & lowercase letters and special character in their passwords.
+You can change website's default theme by changing main colour variables in the `style.css` file.
 
 ## Built With
 
 - HTML5, CSS3, Javascript
-
-- [Bootstrap](https://getbootstrap.com/) - The HTML, CSS and JS library.
 
 - [Favicon.io](https://favicon.io/) - Favicon generator
 
@@ -63,5 +55,4 @@ This project is licensed under the MIT License - see the [LICENSE.txt](https://g
 
 ## Acknowledgments
 
-- Courtney Tucker - [Ctucker9233](https://github.com/Ctucker9233) - Inspiration for the copy to clipboard functionality.
-- Billie Thompson - [PurpleBooth](https://gist.github.com/PurpleBooth) - [README.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) and [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) templates.
+- Billie Thompson - [PurpleBooth](https://gist.github.com/PurpleBooth) - For [README.md](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) and [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) templates.
