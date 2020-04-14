@@ -156,17 +156,11 @@ h3 {
 .contactHeading,
 .introHeading,
 .aboutHeading {
-  background: rgb(88, 214, 205);
+  background: #58d6cd;
   background: linear-gradient(90deg, #58d6cd 0%, #66fcf1 100%);
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
-}
-
-.workHeading {
-  color: var(--clr-accent);
-  font-weight: var(--fw-bold);
-  margin-bottom: 2em;
 }
 
 .typewriter {
@@ -191,6 +185,11 @@ h3 {
 
 /* Header & Navbar */
 header {
+  position: fixed;
+  z-index: 1000;
+  background: rgb(177, 177, 177);
+  background: linear-gradient(90deg, #b1b1b1 0%, #c5c6c7 100%);
+
   display: flex;
   justify-content: space-between;
   padding: 1em 2em;
@@ -330,6 +329,7 @@ header {
     display: grid;
     width: min-content;
     margin: 0 auto;
+    padding-top: 7.5em;
     grid-column-gap: 1em;
     grid-template-areas:
       "img title"
@@ -453,11 +453,18 @@ header {
 
 /* Portfolio */
 .work {
-  padding-top: 2rem;
+  padding-top: 5.5rem;
+  padding-bottom: 6.5rem;
   background: rgb(28, 32, 37);
   background: linear-gradient(90deg, #1c2025 0%, #1f2833 100%);
   color: var(--clr-light);
   text-align: center;
+}
+
+.workHeading {
+  color: var(--clr-accent);
+  font-weight: var(--fw-bold);
+  margin-bottom: 2em;
 }
 
 .portfolio {
