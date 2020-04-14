@@ -43,7 +43,7 @@ You can change website's default theme by changing main colour variables in the 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/yours-kkuznets/Random-Password-Generator/blob/master/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
+Please read [CONTRIBUTING.md](https://github.com/yours-kkuznets/Custom-CSS-Portfolio/blob/master/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
 
 ## Authors
 
@@ -51,7 +51,7 @@ Please read [CONTRIBUTING.md](https://github.com/yours-kkuznets/Random-Password-
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/yours-kkuznets/Random-Password-Generator/blob/master/LICENSE.txt) file for details
+This project is licensed under the MIT License - see the [LICENSE.txt](https://github.com/yours-kkuznets/Custom-CSS-Portfolio/blob/master/LICENSE.txt) file for details
 
 ## Acknowledgments
 
