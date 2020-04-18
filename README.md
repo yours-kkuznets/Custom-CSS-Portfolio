@@ -13,9 +13,13 @@
 
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# Random Password Generator
+# Custom CSS Portfolio
 
 A mobile-first agile portfolio website made with custom CSS, featuring animations and modern design.
+
+# Link to Application
+
+Follow [this link](https://yours-kkuznets.github.io/Custom-CSS-Portfolio/) to view the application.
 
 ## Screenshots
 
