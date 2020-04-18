@@ -17,7 +17,7 @@
 
 A mobile-first agile portfolio website made with custom CSS, featuring animations and modern design.
 
-# Link to Application
+## Link to Application
 
 Follow [this link](https://yours-kkuznets.github.io/Custom-CSS-Portfolio/) to view the application.
 
