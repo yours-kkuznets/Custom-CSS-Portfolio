@@ -15,7 +15,7 @@
 
 # [Custom CSS Portfolio](https://kkuznets.github.io/custom-css-portfolio/) <!-- omit in toc -->
 
-> Lorem ipsum dolor sit amet.
+> A mobile-first agile portfolio website made with custom CSS, featuring animations and modern design.
 
 <img src="https://raw.githubusercontent.com/kkuznets/custom-css-portfolio/master/assets/img/demo.png" alt="Custom CSS Portfolio Demo"/>
 
