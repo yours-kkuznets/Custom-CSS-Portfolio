@@ -1,15 +1,15 @@
-[contributors-shield]: https://img.shields.io/github/contributors/yours-kkuznets/custom-css-portfolio.svg?style=flat-square
-[contributors-url]: https://github.com/yours-kkuznets/custom-css-portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/yours-kkuznets/custom-css-portfolio.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/yours-kkuznets/custom-css-portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/yours-kkuznets/custom-css-portfolio.svg?style=flat-square
-[stars-url]: https://github.com/yours-kkuznets/custom-css-portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/yours-kkuznets/custom-css-portfolio.svg?style=flat-square
-[issues-url]: https://github.com/yours-kkuznets/custom-css-portfolio/issues
-[license-shield]: https://img.shields.io/github/license/yours-kkuznets/custom-css-portfolio.svg?style=flat-square
-[license-url]: https://github.com/yours-kkuznets/custom-css-portfolio/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/yourskkuznets
+[contributors-shield]: https://img.shields.io/github/contributors/kkuznets/custom-css-portfolio.svg?style=for-the-badge&color=blueviolet
+[contributors-url]: https://github.com/kkuznets/custom-css-portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kkuznets/custom-css-portfolio.svg?style=for-the-badge&color=brightgreen
+[forks-url]: https://github.com/kkuznets/custom-css-portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/kkuznets/custom-css-portfolio.svg?style=for-the-badge&color=orange
+[stars-url]: https://github.com/kkuznets/custom-css-portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kkuznets/custom-css-portfolio.svg?style=for-the-badge&color=blue
+[issues-url]: https://github.com/kkuznets/custom-css-portfolio/issues
+[license-shield]: https://img.shields.io/github/license/kkuznets/custom-css-portfolio.svg?style=for-the-badge&color=ff69b4
+[license-url]: https://github.com/kkuznets/custom-css-portfolio/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/kkuznets
 
 [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -53,5 +53,5 @@ Contributions are what make the open source community such an amazing place to b
 
 ## 📜 License
 
-This software is licensed under the [MIT](https://github.com/kkuznets/ProjectURL/blob/master/LICENSE) © [kkuznets](https://github.com/kkuznets).
+This software is licensed under the [MIT](https://github.com/kkuznets/custom-css-portfolio/blob/master/LICENSE) © [kkuznets](https://github.com/kkuznets).
 
